@@ -1,5 +1,12 @@
-# borderRadius-and-color-js
-Coloque bordaRadius e cor na sua div com javascript
+# Card Dynamic
 
+## Novo Layout
 
-Uma maneira eleganta de colocar border-radius e cor numa div :)
+![Novo Layout](/images/newLayout.png)
+
+Uma maneira elegante de usar a criatividade para criar cards e forma.
+
+## Antigo Layout
+
+![Antigo Layout](/images/oldLayout.png)
+

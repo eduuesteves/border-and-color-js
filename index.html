@@ -5,32 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Border Dinâmico</title>
+    <title>Border Dynamic</title>
 </head>
-<body>
-    <header>
-        <h1>Border Dinâmico</h1>
+<body onchange="go()">
+    <header id="header">
+        <h1>Card Dynamic</h1>
     </header>
     <section>
         <div class="box">
-            <label>TopLeft
+            <label>Text
+                <input type="text" id="text" value="Hi." />
+            </label>
+            <label>Color Text
+                <input type="color" id="colorText" />
+            </label>
+            <label>Width
+                <input type="number" id="width" />
+            </label>
+            <label>Height
+                <input type="number" id="height" />
+            </label>
+            <label>Top Left
                 <input type="number" id="topLeft">
             </label>
-            <label>TopRight
+            <label>Top Right
                 <input type="number" id="topRight">
             </label>
-            <label>BottomLeft
+            <label>Bottom Left
                 <input type="number" id="bottomLeft">
             </label>
-            <label>BottomRight
+            <label>Bottom Right
                 <input type="number" id="bottomRight">
+            </label>
+            <label>Padding
+                <input type="number" id="padding">
             </label>
             <label>Background
                 <input type="color" id="bg">
             </label>
-            <button onclick="aplicar()">Aplicar</button>
+            
         </div>
-        <div class="painel" id="painel"></div>
+        <div id="borderPainel">
+            <div class="painel" id="painel">Hi.</div>
+        </div>
     </section>
 
     <script src="script.js"></script>
